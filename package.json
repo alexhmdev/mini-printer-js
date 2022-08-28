@@ -25,6 +25,11 @@
   },
   "homepage": "https://github.com/peckas13/mini-printer-js#readme",
   "dependencies": {
-    "escpos-print": "^2.0.0"
+    "escpos": "^3.0.0-alpha.6",
+    "escpos-network": "^3.0.0-alpha.5",
+    "escpos-print": "file:../../Angular/escpos",
+    "escpos-usb": "^3.0.0-alpha.4",
+    "path": "^0.12.7",
+    "usb": "^1.9.0"
   }
 }
